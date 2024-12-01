@@ -1,99 +1,90 @@
 ***Testcase1:
 *Input:
-  Nhap phan so thu nhat:
-    Nhap tu so: 1
-    Nhap mau so: 2
-  Nhap phan so thu hai:
-    Nhap tu so: 1
-    Nhap mau so: 3
+  Equation 1:
+    a: 2
+    b: 3
+    c: 4
+  Equation 2:
+    a: 1
+    b: -2
+    c: 5
+  Evaluate at x: 2
 *Output:
-  Tong: 5/6
-  Hieu: 1/6
-  Tich: 1/6
-  Thuong: 3/2
-  ps1 == ps2: false
-  ps1 != ps2: true
-  ps1 > ps2: true
-  ps1 < ps2: false
-  ps1 >= ps2: true
-  ps1 <= ps2: false
+  Equation 1: 2x^2 + 3x + 4
+  Equation 2: x^2 - 2x + 5
+  F1(2): 18
+  F2(2): 7
+  Sum: 3x^2 + x + 9
 ---------------------------------
 ***Testcase2:
 *Input:
-  Nhap phan so thu nhat:
-    Nhap tu so: -3
-    Nhap mau so: 4
-  Nhap phan so thu hai:
-    Nhap tu so: 1
-    Nhap mau so: 4
+  Equation 1:
+    a: 1
+    b: 1
+    c: 1
+  Equation 2:
+    a: -1
+    b: -1
+    c: -1
+  Evaluate at x: -1
 *Output:
-  Tong: -1/2
-  Hieu: -1
-  Tich: -3/16
-  Thuong: -3
-  ps1 == ps2: false
-  ps1 != ps2: true
-  ps1 > ps2: false
-  ps1 < ps2: true
-  ps1 >= ps2: false
-  ps1 <= ps2: true
------------------------------------
+  Equation 1: x^2 + x + 1
+  Equation 2: -x^2 - x - 1
+  F1(-1): 1
+  F2(-1): -1
+  Sum: 0
+---------------------------------
 ***Testcase3:
 *Input:
-  Nhap phan so thu nhat:
-    Nhap tu so: 0
-    Nhap mau so: 5
-  Nhap phan so thu hai:
-    Nhap tu so: 2
-    Nhap mau so: 3
+  Equation 1:
+    a: 0
+    b: 0
+    c: 0
+  Equation 2:
+    a: 0
+    b: 0
+    c: 0
+  Evaluate at x: 5
 *Output:
-  Tong: 2/3
-  Hieu: -2/3
-  Tich: 0
-  Thuong: 0
-  ps1 == ps2: false
-  ps1 != ps2: true
-  ps1 > ps2: false
-  ps1 < ps2: true
-  ps1 >= ps2: false
-  ps1 <= ps2: true
------------------------------------
+  Equation 1: 0
+  Equation 2: 0
+  F1(5): 0
+  F2(5): 0
+  Sum: 0
+---------------------------------
 ***Testcase4:
 *Input:
-  Nhap phan so thu nhat:
-    Nhap tu so: 3
-    Nhap mau so: 7
-  Nhap phan so thu hai:
-    Nhap tu so: -5
-    Nhap mau so: 7
+  Equation 1:
+    a: 3
+    b: 2
+    c: -1
+  Equation 2:
+    a: 2
+    b: 4
+    c: 1
+  Evaluate at x: 0
 *Output:
-  Tong: -2/7
-  Hieu: 8/7
-  Tich: -15/49
-  Thuong: -21/5
-  ps1 == ps2: false
-  ps1 != ps2: true
-  ps1 > ps2: true
-  ps1 < ps2: false
-  ps1 >= ps2: true
-  ps1 <= ps2: false
------------------------------------
+  Equation 1: 3x^2 + 2x - 1
+  Equation 2: 2x^2 + 4x + 1
+  F1(0): -1
+  F2(0): 1
+  Sum: 5x^2 + 6x
+---------------------------------
 ***Testcase5:
 *Input:
-  Nhap phan so thu nhat:
-    Nhap tu so: -4
-    Nhap mau so: 9
-  Nhap phan so thu hai:
-    Nhap tu so: -4
-    Nhap mau so: 9
+  Equation 1:
+    a: -2
+    b: 0
+    c: 3
+  Equation 2:
+    a: 2
+    b: 0
+    c: -3
+  Evaluate at x: 1
 *Output:
-  Tong: -8/9
-  Hieu: 0
-  Tich: 16/81
-  Thuong: 1
-  ps1 == ps2: true
-  ps1 != ps2: false
-  ps1 > ps2: false
-  ps1 < ps2: false
-  ps1 >= ps2: true
-  ps1 <= ps2: true
+  Equation 1: -2x^2 + 3
+  Equation 2: 2x^2 - 3
+  F1(1): 1
+  F2(1): -1
+  Sum: 0
+---------------------------------
