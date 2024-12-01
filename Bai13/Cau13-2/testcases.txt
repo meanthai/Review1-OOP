@@ -1,0 +1,60 @@
+***Testcase1:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: 1
+    Nhap mau so: 2
+  Nhap phan so thu hai:
+    Nhap tu so: 1
+    Nhap mau so: 3
+*Output:
+  Tong: 11/6
+  So sanh:
+---------------------------------
+***Testcase2:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: -2
+    Nhap mau so: 5
+  Nhap phan so thu hai:
+    Nhap tu so: 2
+    Nhap mau so: 5
+*Output:
+  Tong: 1
+  So sanh:
+---------------------------------
+***Testcase3:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: 3
+    Nhap mau so: 7
+  Nhap phan so thu hai:
+    Nhap tu so: 0
+    Nhap mau so: 1
+*Output:
+  Tong: 10/7
+  So sanh:
+---------------------------------
+***Testcase4:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: 4
+    Nhap mau so: 9
+  Nhap phan so thu hai:
+    Nhap tu so: 8
+    Nhap mau so: 18
+*Output:
+  Tong: 11/9
+  So sanh:
+    Phan so thu nhat bang phan so thu hai
+---------------------------------
+***Testcase5:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: 5
+    Nhap mau so: 4
+  Nhap phan so thu hai:
+    Nhap tu so: -1
+    Nhap mau so: 4
+*Output:
+  Tong: 9/4
+  So sanh:
