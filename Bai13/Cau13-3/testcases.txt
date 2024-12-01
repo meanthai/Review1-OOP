@@ -1,0 +1,95 @@
+***Testcase1:
+*Input:
+  Them thua dat:
+    So thua: 101
+    Chu so huu: Nguyen Van A
+    Loai dat: Dat nong nghiep
+    Dien tich: 500.5
+    Thoi han su dung: 50
+  Hien thi danh sach:
+*Output:
+  Danh sach thua dat:
+    - So thua: 101
+      Chu so huu: Nguyen Van A
+      Loai dat: Dat nong nghiep
+      Dien tich: 500.5 m2
+      Thoi han su dung: 50 nam
+---------------------------------
+***Testcase2:
+*Input:
+  Them thua dat:
+    So thua: 102
+    Chu so huu: Tran Thi B
+    Loai dat: Dat phi nong nghiep
+    Dien tich: 300
+    Thoi han su dung: 20
+  Tim kiem thua dat:
+    So thua: 102
+*Output:
+  Ket qua tim kiem:
+    So thua: 102
+    Chu so huu: Tran Thi B
+    Loai dat: Dat phi nong nghiep
+    Dien tich: 300 m2
+    Thoi han su dung: 20 nam
+---------------------------------
+***Testcase3:
+*Input:
+  Them thua dat:
+    So thua: 103
+    Chu so huu: Le Van C
+    Loai dat: Dat nong nghiep
+    Dien tich: 1000
+    Thoi han su dung: 70
+  Tim kiem thua dat:
+    So thua: 104
+*Output:
+  Ket qua tim kiem:
+    Khong tim thay thua dat!
+---------------------------------
+***Testcase4:
+*Input:
+  Them thua dat:
+    So thua: 201
+    Chu so huu: Hoang Thi D
+    Loai dat: Dat phi nong nghiep
+    Dien tich: 450.25
+    Thoi han su dung: 30
+  Them thua dat:
+    So thua: 202
+    Chu so huu: Pham Van E
+    Loai dat: Dat nong nghiep
+    Dien tich: 700
+    Thoi han su dung: 60
+  Hien thi danh sach:
+*Output:
+  Danh sach thua dat:
+    - So thua: 201
+      Chu so huu: Hoang Thi D
+      Loai dat: Dat phi nong nghiep
+      Dien tich: 450.25 m2
+      Thoi han su dung: 30 nam
+    - So thua: 202
+      Chu so huu: Pham Van E
+      Loai dat: Dat nong nghiep
+      Dien tich: 700 m2
+      Thoi han su dung: 60 nam
+---------------------------------
+***Testcase5:
+*Input:
+  Them thua dat:
+    So thua: 301
+    Chu so huu: Vo Thi F
+    Loai dat: Dat phi nong nghiep
+    Dien tich: 200
+    Thoi han su dung: 10
+  Tim kiem thua dat:
+    So thua: 301
+*Output:
+  Ket qua tim kiem:
+    So thua: 301
+    Chu so huu: Vo Thi F
+    Loai dat: Dat phi nong nghiep
+    Dien tich: 200 m2
+    Thoi han su dung: 10 nam
+---------------------------------
