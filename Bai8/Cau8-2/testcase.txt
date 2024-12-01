@@ -1,0 +1,99 @@
+***Testcase1:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: 1
+    Nhap mau so: 2
+  Nhap phan so thu hai:
+    Nhap tu so: 1
+    Nhap mau so: 3
+*Output:
+  Tong: 5/6
+  Hieu: 1/6
+  Tich: 1/6
+  Thuong: 3/2
+  ps1 == ps2: false
+  ps1 != ps2: true
+  ps1 > ps2: true
+  ps1 < ps2: false
+  ps1 >= ps2: true
+  ps1 <= ps2: false
+---------------------------------
+***Testcase2:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: -3
+    Nhap mau so: 4
+  Nhap phan so thu hai:
+    Nhap tu so: 1
+    Nhap mau so: 4
+*Output:
+  Tong: -1/2
+  Hieu: -1
+  Tich: -3/16
+  Thuong: -3
+  ps1 == ps2: false
+  ps1 != ps2: true
+  ps1 > ps2: false
+  ps1 < ps2: true
+  ps1 >= ps2: false
+  ps1 <= ps2: true
+-----------------------------------
+***Testcase3:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: 0
+    Nhap mau so: 5
+  Nhap phan so thu hai:
+    Nhap tu so: 2
+    Nhap mau so: 3
+*Output:
+  Tong: 2/3
+  Hieu: -2/3
+  Tich: 0
+  Thuong: 0
+  ps1 == ps2: false
+  ps1 != ps2: true
+  ps1 > ps2: false
+  ps1 < ps2: true
+  ps1 >= ps2: false
+  ps1 <= ps2: true
+-----------------------------------
+***Testcase4:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: 3
+    Nhap mau so: 7
+  Nhap phan so thu hai:
+    Nhap tu so: -5
+    Nhap mau so: 7
+*Output:
+  Tong: -2/7
+  Hieu: 8/7
+  Tich: -15/49
+  Thuong: -21/5
+  ps1 == ps2: false
+  ps1 != ps2: true
+  ps1 > ps2: true
+  ps1 < ps2: false
+  ps1 >= ps2: true
+  ps1 <= ps2: false
+-----------------------------------
+***Testcase5:
+*Input:
+  Nhap phan so thu nhat:
+    Nhap tu so: -4
+    Nhap mau so: 9
+  Nhap phan so thu hai:
+    Nhap tu so: -4
+    Nhap mau so: 9
+*Output:
+  Tong: -8/9
+  Hieu: 0
+  Tich: 16/81
+  Thuong: 1
+  ps1 == ps2: true
+  ps1 != ps2: false
+  ps1 > ps2: false
+  ps1 < ps2: false
+  ps1 >= ps2: true
+  ps1 <= ps2: true
